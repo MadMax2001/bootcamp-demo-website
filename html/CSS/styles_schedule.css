@@ -1,0 +1,78 @@
+.schedule{
+    background-color: white;
+}
+
+.schedule div{
+    padding: 40px 0;
+    margin: auto;
+    width: 70%;
+}
+
+table{
+    margin: 50px 0;
+}
+
+thead th,tbody th{
+    font-family: 'Merriweather', serif;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+thead td,tbody td{
+    font-family: 'Merriweather', serif;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+thead tr th{
+    font-size: 25px;
+}
+
+tbody th{
+    text-align: right;
+}
+
+tbody a{
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+    color: #888888;
+}
+
+td h4{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+time,.schedule-offset{
+    font-size: 14px;
+    color: #a9b3b9;
+}
+
+tbody td{
+    border-top: 1px solid #dfe2e5;
+}
+
+@media(max-width: 934px){
+    .schedule div{
+        width: 90%;
+    }
+}
+
+@media(max-width: 544px){
+    .schedule div{
+        width: 100%;
+    }
+    tbody td{
+        display: block;
+    }
+}
+
+@media(max-width: 333px){
+    thead td,tbody td{
+        padding-right: 10px;
+    }
+    thead th, tbody th{
+        padding-right: 10px;
+    }
+}

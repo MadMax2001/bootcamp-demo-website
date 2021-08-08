@@ -1,0 +1,157 @@
+
+.top{
+    margin-bottom: 40px;
+}
+
+.details{
+    background: linear-gradient(to right, #f6f1d3, #a1d3b0, #f6f1d3);
+    padding-top: 40px;
+    text-align: center;
+}
+
+.details h2,.details p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+
+.details p{
+    font-size: 20px;
+}
+
+.course-form{
+    background-color: white;
+}
+
+.middle-form{
+    display: flex;
+    width: 70%;
+    max-width: 960px;
+    margin: auto;
+    padding: 66px 0 44px 0;
+}
+
+input,select,textarea{
+    margin: 10px 0 25px 0;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 78px;
+}
+
+.middle-form h3{
+    margin-bottom: 5px;
+}
+
+.middle-form p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+label{
+    font-family: 'Merriweather', serif;
+}
+
+ul{
+    padding-left: 40px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.course-info{
+    width: 95%;
+    margin-right: 40px;
+}
+
+.btn-submit{
+    width: auto;
+    margin: 20px 30%;
+    padding: 11px 30px;
+    background-color: #648880;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
+
+.btn-submit:hover{
+    background-color: #77a198;
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em #487c71;
+}
+
+@media(max-width: 1100px){
+    .details h2,.details p{
+        width: 70%;
+    }
+    .middle-form{
+        width: 80%;
+    }
+}
+
+@media(max-width: 950px){
+    .details h2,.details p{
+        width: 80%;
+    }
+    .middle-form{
+        width: 90%;
+    }
+}
+
+@media(max-width: 780px){
+    .details h2,.details p{
+        width: 90%;
+    }
+    .middle-form{
+        width: 95%;
+    }
+}
+
+@media(max-width: 690px){
+    .details h2,.details p{
+        width: 95%;
+    }
+}
+
+@media(max-width: 630px){
+    .middle-form{
+        flex-direction: column;
+    }
+    .course-info::after{
+        display: block;
+    content: '';
+    height: 10px;
+        background: linear-gradient(to left,transparent,#a1d3d0,transparent);
+        margin-top: 20px;
+    }
+    .course-info{
+        margin-bottom: 30px;
+    }
+    input,select,textarea{
+        display: block;
+        width: 60%;
+        margin: 10px auto 25px;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+.btn-submit{
+    margin: 20px 15%;
+}
+.form{
+    margin-left: 25%;
+}
+}
+
+@media(max-width: 580px){
+    input,select,textarea{
+        margin-right: 10%;
+    }
+    .btn-submit{
+        margin: 20px 10%;
+    }
+}

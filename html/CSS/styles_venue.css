@@ -1,0 +1,57 @@
+.flex{
+    background-color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+fieldset{
+    border: 1px solid lightgray;
+    margin: 10px;
+    line-height: 2.5;
+    padding: 40px;
+}
+legend{
+    font-weight: 700;
+}
+/* 
+fieldset div{
+    padding: 20px;
+} */
+
+/* .flex section{
+    display: flex;
+} */
+
+.address h2{
+    font-family: 'Merriweather', serif;
+}
+
+.address a{
+    text-decoration: none;
+    color: rgb(97, 95, 95);
+
+}
+
+.address a:hover{
+    color: black;
+
+}
+
+@media(max-width: 737px){
+    .flex{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 476px){
+    .flex{
+        padding: 80px 40px;
+    }
+}
+
+@media(max-width: 476px){
+    .flex{
+        padding: 80px 10px;
+    }
+}
